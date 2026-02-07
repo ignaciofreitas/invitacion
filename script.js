@@ -32,14 +32,51 @@ const x = setInterval(function() {
 // Animación de revelado al hacer scroll
 
 
-const reveals = document.querySelectorAll(".reveal");
+// const reveals = document.querySelectorAll(".reveal");
+
+// const observer = new IntersectionObserver(
+//   entries => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         entry.target.classList.add("visible");
+//         observer.unobserve(entry.target); // anima solo una vez
+//       }
+//     });
+//   },
+//   {
+//     threshold: 0.3
+//   }
+// );
+
+// reveals.forEach(el => observer.observe(el));
+
+// const images = document.querySelectorAll(".reveal-center");
+
+// const observer2 = new IntersectionObserver(
+//   entries => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         entry.target.classList.add("visible");
+//         observer2.unobserve(entry.target);
+//       }
+//     });
+//   },
+//   { threshold: 0.3 }
+// );
+
+// images.forEach(img => observer2.observe(img));
+
+const animatedElements = document.querySelectorAll(
+  ".reveal, .reveal-center"
+);
 
 const observer = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
-        observer.unobserve(entry.target); // anima solo una vez
+      } else {
+        entry.target.classList.remove("visible");
       }
     });
   },
@@ -48,21 +85,31 @@ const observer = new IntersectionObserver(
   }
 );
 
-reveals.forEach(el => observer.observe(el));
+animatedElements.forEach(el => observer.observe(el));
 
-const images = document.querySelectorAll(".reveal-center");
+
+// Animacion para los textos
+
+const animatedElements2 = document.querySelectorAll(
+  ".reveal, .reveal-center, .text-reveal, .text-blur, .text-lines"
+);
 
 const observer2 = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
-        observer2.unobserve(entry.target);
+      } else {
+        entry.target.classList.remove("visible");
       }
     });
   },
-  { threshold: 0.3 }
+  {
+    threshold: 0.35
+  }
 );
 
-images.forEach(img => observer2.observe(img));
+animatedElements.forEach(el => observer.observe(el));
+
+
 

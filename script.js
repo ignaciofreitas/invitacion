@@ -28,3 +28,41 @@ const x = setInterval(function() {
         document.getElementById("countdown").innerHTML = "¡La fecha ha llegado!";
     }
 }, 1000);
+
+// Animación de revelado al hacer scroll
+
+
+const reveals = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target); // anima solo una vez
+      }
+    });
+  },
+  {
+    threshold: 0.3
+  }
+);
+
+reveals.forEach(el => observer.observe(el));
+
+const images = document.querySelectorAll(".reveal-center");
+
+const observer2 = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer2.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.3 }
+);
+
+images.forEach(img => observer2.observe(img));
+

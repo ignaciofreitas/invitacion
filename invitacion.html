@@ -9,6 +9,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,437;1,437&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="styles.css">
     <title>Boda-Sheila-Nacho</title>
 </head>
@@ -41,10 +45,10 @@
     </section>
     <section class="sectionTwo">
         <div class="sectionTwoText">
-            <h2>el día más esperado de nuestras vidas está llegando...</h2>
+            <h2 class="animate__backInRight">el día más esperado de nuestras vidas está llegando...</h2>
         </div>
         <div class="sectionTwoImg">
-            <img src="./images/1.jpeg" alt="">
+            <img class="reveal" data-anim="fade-up" src="./images/1.jpeg" alt="">
         </div>
     </section>
     <section class="sectionThree">
@@ -97,9 +101,8 @@
         </div>
     </section>
     <section class="sectionFive">
-
         <div class="sectionFiveImg">
-            <img src="./images/6.jpeg" alt="">
+            <img class="reveal" data-anim="fade" src="./images/6.jpeg" alt="">
         </div>
         <div class="sectionFiveText">
             <h2>hay momentos en la vida que son especiales por sí solos.compartirlos con las personas que querés, los
@@ -109,7 +112,8 @@
     <section class="sectionSix">
         <div class="present">
             <h2>regalo</h2>
-            <p>Tu presencia es el mejor regalo. Si queres ayudarnos a seguir sumando recuerdos en nuestra luna de miel:</p>
+            <p>Tu presencia es el mejor regalo. Si queres ayudarnos a seguir sumando recuerdos en nuestra luna de miel:
+            </p>
         </div>
         <div class="accounts">
             <h2>alias:</h2>
@@ -143,7 +147,7 @@
     </section>
     <section class="sectionEight">
         <div class="sectionEightImg">
-            <img src="./images/5.jpeg" alt="">
+            <img class="reveal-center" src="./images/5.jpeg" alt="">
         </div>
         <div class="sectionEightText">
             <h2>juntos comenzamos este viaje llamado para siempre</h2>
@@ -154,6 +158,10 @@
         <h2>shei & Nacho</h2>
     </section>
     <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

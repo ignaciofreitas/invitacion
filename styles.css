@@ -18,45 +18,66 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .homeSectionTitles {
-    width: 90%;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.homeSectionTitles h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4%;
-}
-
-.homeSectionTitles h2 {
+    width: 100%;
+    height: 30%;
     text-align: center;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
+
+.homeSectionTitles img {
+    height: 50%;
+}
+
+.homeSectionTitles .homeTextContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .homeSectionTitles p {
+    padding-top: 10%;
+    width: 85%;
     text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
+
 }
 
 .enterLink {
     width: 100%;
+    height: 10%;
     display: flex;
     justify-content: center;
-
+    align-items: start;
 }
 
 .enterBtn {
     width: 40%;
+    height: 60%;
     border: none;
     background-color: #8F9E72;
     text-transform: uppercase;
     font-size: 1.2rem;
-    padding: 1rem;
+
 }
 
 .enterBtn a {
@@ -219,12 +240,12 @@
     justify-content: center;
     width: 100%;
     height: 30%;
-
 }
 
 .when-info img,
 .where-info img {
-    margin-bottom: 6%;
+    width: 15%;
+    margin-bottom: 4%;
 }
 
 .when-info .text {
@@ -266,7 +287,7 @@
     width: 90%;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 4%;
 }
 
@@ -274,7 +295,7 @@
     width: 90%;
     text-transform: uppercase;
     text-align: center;
-    font-size: .9rem;
+    font-size: 1rem;
     margin-bottom: 4%;
 
 }
@@ -283,7 +304,7 @@
     width: 90%;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 4%;
 
 }
@@ -292,7 +313,7 @@
     width: 90%;
     text-transform: uppercase;
     text-align: center;
-    font-size: .9rem;
+    font-size: 1rem;
     margin-bottom: 4%;
 
 }
@@ -440,15 +461,15 @@
 
 .sectionSix .present h2 {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 2%;
     text-transform: uppercase;
 }
 
 .sectionSix .present p {
     text-align: center;
-    font-size: 1.2rem;
-    width: 80%;
+    font-size: 1.3rem;
+    width: 90%;
 }
 
 .sectionSix .accounts {
@@ -462,7 +483,7 @@
 
 .sectionSix .accounts h2 {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 2%;
 }
@@ -489,13 +510,13 @@
 
 .sectionSix .dressCode .title {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 2%;
     text-transform: uppercase;
 }
 
 .sectionSix .dressCode .text {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-bottom: 4%;
 }
 
@@ -522,16 +543,20 @@
 }
 
 .modal-content {
-    background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 100%;
+    background-color: white;
 }
 
 .modal-content img {
     width: 100%;
     height: auto;
+}
+
+.modal-content p {
+    background-color: white;
 }
 
 .close {

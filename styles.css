@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FAF9F4;
+
     color: #8F9E72;
     font-family: "Libre Bodoni", serif;
     font-optical-sizing: auto;
@@ -18,7 +18,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .homeSectionTitles {

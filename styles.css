@@ -94,6 +94,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FAF9F4;
 }
 
 .sectionOnePicture {
@@ -200,7 +201,7 @@
 
 .sectionTwo .sectionTwoImg img {
     width: 90%;
-    height: 90%;
+    height: 80%;
     border-radius: 14px;
     object-fit: fill;
 }
@@ -230,6 +231,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20%;
+    background-color: #FAF9F4;
 }
 
 .when-info {
@@ -337,6 +339,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FAF9F4;
 }
 
 .sectionFour h2 {
@@ -442,6 +445,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
+    background-color: #FAF9F4;
 }
 
 .sectionSix .present {
@@ -771,6 +775,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FAF9F4;
 }
 
 .sectionNine h2 {

@@ -783,3 +783,167 @@
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+/* MEDIA QUERIES */
+
+
+
+
+
+@media (min-width: 700px) and (max-width: 1400px) {
+
+    .homeSection {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeSectionTitles {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .homeSectionTitles h2 {
+        height: 30%;
+        font-size: 2.4rem;
+
+    }
+
+
+    .homeSectionTitles img {
+        height: 60%;
+        width: 50%;
+    }
+
+    .homeSectionTitles .homeTextContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+    }
+
+
+    .homeSectionTitles p {
+        padding-top: 0%;
+        width: 85%;
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+
+    }
+
+    .enterLink {
+        align-items: center;
+    }
+
+    .enterBtn {
+        width: 20%;
+        height: 60%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+
+    }
+
+    .enterBtn a {
+        text-decoration: none;
+        color: #FAF9F4;
+        background-color: none;
+        background-color: #8F9E72;
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+
+
+    .homeSection {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeSectionTitles {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .homeSectionTitles h2 {
+        height: 30%;
+        font-size: 3rem;
+
+    }
+
+
+    .homeSectionTitles img {
+        height: 60%;
+        width: 40%;
+    }
+
+    .homeSectionTitles .homeTextContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+    }
+
+
+    .homeSectionTitles p {
+        padding-top: 0%;
+        width: 85%;
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+
+    }
+
+    .enterLink {
+        align-items: center;
+    }
+
+    .enterBtn {
+        width: 20%;
+        height: 60%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+        text-transform: uppercase;
+        font-size: 2rem;
+
+    }
+
+    .enterBtn a {
+        text-decoration: none;
+        color: #FAF9F4;
+        background-color: none;
+        background-color: #8F9E72;
+    }
+
+}

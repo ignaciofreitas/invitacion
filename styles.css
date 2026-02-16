@@ -786,10 +786,6 @@
 
 /* MEDIA QUERIES */
 
-
-
-
-
 @media (min-width: 700px) and (max-width: 1400px) {
 
     .homeSection {
@@ -865,6 +861,433 @@
         background-color: none;
         background-color: #8F9E72;
     }
+
+    .sectionOnePicture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionOnePicture img {
+        width: 40%;
+        height: 95%;
+        border-radius: 14px;
+    }
+
+    .sectionOneCounter {
+        width: 50%;
+    }
+
+    .sectionOneCounter h2 {
+        font-size: 3rem;
+    }
+
+    .sectionOneCounter #countdown {
+        font-size: 2rem;
+    }
+
+    .counter-word {
+        font-size: 1.2rem;
+    }
+
+    .sectionTwo {
+        height: 100vh;
+        width: 100%;
+        background-color: #8F9E72;
+        padding-top: 4%;
+    }
+
+    .sectionTwo .sectionTwoText {
+        width: 95%;
+        height: 20%;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+    }
+
+    .sectionTwo .sectionTwoText h2 {
+        color: #FAF9F4;
+        text-transform: uppercase;
+        background-color: #8F9E72;
+        width: 95%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        border-top: solid 1px #FAF9F4;
+        border-bottom: solid 1px #FAF9F4;
+        word-spacing: .2rem;
+    }
+
+
+    .sectionTwo .sectionTwoImg {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionTwo .sectionTwoImg img {
+        width: 50%;
+        height: 100%;
+        border-radius: 14px;
+        object-fit: fill;
+    }
+
+
+    .sectionThree {
+        padding-top: 1%;
+    }
+
+    .when-info {
+        height: 40%;
+        margin-bottom: 5%;
+    }
+
+    .when-info img,
+    .where-info img {
+        width: 6%;
+        margin-bottom: 1%;
+    }
+
+    .when-info .text {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+
+    .when-info .date {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+    }
+
+    .where-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+
+    .where-info .text {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+
+    .where-info .where1 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: .5%;
+    }
+
+    .where-info .adress1 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+
+    }
+
+    .where-info .where2 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: .5%;
+
+    }
+
+    .where-info .adress2 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+
+    }
+
+    .mapBtn {
+        text-decoration: none;
+        margin-bottom: 6%;
+        text-transform: uppercase;
+        background-color: #8F9E72;
+        color: #FAF9F4;
+        width: 20%;
+        padding: 1%;
+        height: 60px;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sectionFive .sectionFiveText {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+    }
+
+    .sectionFive .sectionFiveText h2 {
+        width: 95%;
+        font-size: 2rem;
+
+
+    }
+
+    .sectionFive .sectionFiveImg {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionFive .sectionFiveImg img {
+        width: 40%;
+        height: 95%;
+        object-fit: fill;
+        border-radius: 14px;
+    }
+
+
+    .sectionSix {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        background-color: #FAF9F4;
+
+    }
+
+    .sectionSix .present {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .present img {
+        margin-bottom: 1%;
+    }
+
+
+    .sectionSix .present h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 0%;
+        text-transform: uppercase;
+
+    }
+
+    .sectionSix .present p {
+        text-align: center;
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    .sectionSix .accounts {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .accounts h2 {
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 0%;
+    }
+
+    .sectionSix .accounts p {
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 0%;
+    }
+
+    .sectionSix .dressCode {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .dressCode img {
+        margin-bottom: 1%;
+    }
+
+    .sectionSix .dressCode .title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0%;
+        text-transform: uppercase;
+    }
+
+    .sectionSix .dressCode .text {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+    }
+
+    .sectionSix .dressCode button {
+        width: 10%;
+        height: 25%;
+        font-size: 1.5rem;
+        padding: 1%;
+        background-color: #8F9E72;
+        color: #FAF9F4;
+        border: none;
+        text-transform: uppercase;
+        margin-bottom: 4%;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 15%;
+        top: 15%;
+        width: 70%;
+        height: 70%;
+        overflow: auto;
+        background-color: white;
+        border: solid #8F9E72 1px;
+
+    }
+
+    .modal-content {
+        margin: 0;
+        height: 90%;
+        padding: 0px;
+        width: 100%;
+        background-color: white;
+        border: solid white 1px;
+
+    }
+
+    .modal-content img {
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+
+    }
+
+    .modal-content p {
+        background-color: white;
+        text-align: center;
+        height: 10%;
+        font-size: 1.8rem;
+        border: none;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+    .sectionSeven .noBabies {
+        height: 40%;
+        margin-bottom: 0%;
+    }
+
+    .sectionSeven .noBabies img {
+        margin-bottom: 1%;
+        width: 5%;
+    }
+
+    .sectionSeven .noBabies .title {
+        margin-bottom: 0%;
+        font-size: 2rem;
+    }
+
+
+    .sectionSeven .confirmation {
+        width: 100%;
+        height: 40%;
+    }
+
+    .sectionSeven .confirmation img {
+        width: 5%;
+        margin-bottom: 1%;
+    }
+
+    .sectionSeven .confirmation .text {
+        font-size: 2rem;
+    }
+
+    .sectionSeven .confirmation a {
+        width: 35%;
+        padding: 1%;
+        height: 50px;
+        font-size: 2rem;
+    }
+
+    .sectionEight .sectionEightText h2 {
+        font-size: 2rem;
+        width: 95%;
+    }
+
+    .sectionEight .sectionEightImg {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+        padding-top: 3%;
+    }
+
+    .sectionEight .sectionEightImg img {
+        width: 45%;
+        height: 90%;
+        border-radius: 14px;
+        object-fit: fill;
+    }
+
 
 }
 
@@ -944,6 +1367,680 @@
         color: #FAF9F4;
         background-color: none;
         background-color: #8F9E72;
+    }
+
+    .sectionOne {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAF9F4;
+    }
+
+    .sectionOnePicture {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+    }
+
+    .sectionOnePicture img {
+        width: 40%;
+        height: 90%;
+        border-radius: 14px;
+        object-fit: fill;
+    }
+
+    .sectionOneCounter {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sectionOneCounter h2 {
+        width: 100%;
+        height: 30%;
+        font-size: 3.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-transform: uppercase;
+
+    }
+
+    .countdownContainer {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionOneCounter #countdown {
+        display: flex;
+        overflow: hidden;
+        width: 45%;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    #countdown p {
+        width: 25%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .counter-number {
+        text-align: center;
+    }
+
+    .counter-word {
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+
+    .sectionTwo {
+        height: 100vh;
+        width: 100%;
+        background-color: #8F9E72;
+        padding-top: 4%;
+    }
+
+    .sectionTwo .sectionTwoText {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+    }
+
+    .sectionTwo .sectionTwoText h2 {
+        color: #FAF9F4;
+        text-transform: uppercase;
+        background-color: #8F9E72;
+        width: 95%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        border-top: solid 1px #FAF9F4;
+        border-bottom: solid 1px #FAF9F4;
+        word-spacing: .2rem;
+    }
+
+
+    .sectionTwo .sectionTwoImg {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionTwo .sectionTwoImg img {
+        width: 50%;
+        height: 100%;
+        border-radius: 14px;
+        object-fit: fill;
+    }
+
+    .sectionThree {
+        padding-top: 0%;
+    }
+
+    .when-info {
+        height: 40%;
+        margin-bottom: 5%;
+    }
+
+    .when-info img,
+    .where-info img {
+        width: 6%;
+        margin-bottom: 1%;
+    }
+
+    .when-info .text {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+
+    .when-info .date {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0%;
+    }
+
+    .where-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+        width: 100%;
+    }
+
+
+    .where-info .text {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+
+    .where-info .where1 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: .5%;
+    }
+
+    .where-info .adress1 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: .5%;
+
+    }
+
+    .where-info .where2 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: .5%;
+
+    }
+
+    .where-info .adress2 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: .5%;
+
+    }
+
+    .mapBtn {
+        text-decoration: none;
+        margin-bottom: 6%;
+        text-transform: uppercase;
+        background-color: #8F9E72;
+        color: #FAF9F4;
+        width: 20%;
+        padding: 1%;
+        height: 60px;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .sectionFour {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAF9F4;
+    }
+
+    .sectionFour h2 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        width: 100%;
+        height: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scheduleContainer {
+        height: 90%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .scheduleContainer .schedule {
+        width: 50%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: #8F9E72 solid 1px;
+    }
+
+    .scheduleContainer .schedule img {
+        margin-bottom: 4%;
+    }
+
+    .scheduleContainer .schedule .text {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2%;
+        text-transform: uppercase;
+    }
+
+    .scheduleContainer .schedule .time {
+        width: 80%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .sectionFive {
+        height: 100vh;
+        width: 100%;
+        background-color: #8F9E72;
+    }
+
+    .sectionFive .sectionFiveText {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+    }
+
+    .sectionFive .sectionFiveText h2 {
+        color: #FAF9F4;
+        text-transform: uppercase;
+        background-color: #8F9E72;
+        width: 95%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        border-top: solid 1px #FAF9F4;
+        border-bottom: solid 1px #FAF9F4;
+        line-height: 1.3;
+        word-spacing: .2rem;
+
+    }
+
+    .sectionFive .sectionFiveImg {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionFive .sectionFiveImg img {
+        width: 40%;
+        height: 90%;
+        object-fit: fill;
+        border-radius: 14px;
+    }
+
+
+    .sectionSix {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        background-color: #FAF9F4;
+
+    }
+
+    .sectionSix .present {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .present img {
+        margin-bottom: 1%;
+    }
+
+
+    .sectionSix .present h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 0%;
+        text-transform: uppercase;
+
+    }
+
+    .sectionSix .present p {
+        text-align: center;
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    .sectionSix .accounts {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .accounts h2 {
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 0%;
+    }
+
+    .sectionSix .accounts p {
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 0%;
+    }
+
+    .sectionSix .dressCode {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .dressCode img {
+        margin-bottom: 1%;
+    }
+
+    .sectionSix .dressCode .title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0%;
+        text-transform: uppercase;
+    }
+
+    .sectionSix .dressCode .text {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+    }
+
+    .sectionSix .dressCode button {
+        width: 15%;
+        height: 20%;
+        font-size: 2rem;
+        padding: 1%;
+        background-color: #8F9E72;
+        color: #FAF9F4;
+        border: none;
+        text-transform: uppercase;
+        margin-bottom: 4%;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 15%;
+        top: 15%;
+        width: 70%;
+        height: 70%;
+        overflow: auto;
+        background-color: white;
+        border: solid #8F9E72 1px;
+    }
+
+    .modal-content {
+        margin: 0;
+        height: 90%;
+        padding: 0px;
+        border: 1px solid #888;
+        width: 100%;
+        background-color: white;
+    }
+
+    .modal-content img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .modal-content p {
+        background-color: white;
+        text-align: center;
+        height: 10%;
+        font-size: 2rem;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+    .sectionSeven .noBabies {
+        height: 40%;
+        margin-bottom: 0%;
+    }
+
+    .sectionSeven .noBabies img {
+        margin-bottom: 1%;
+        width: 5%;
+    }
+
+    .sectionSeven .noBabies .title {
+        margin-bottom: 0%;
+        font-size: 2rem;
+    }
+
+
+    .sectionSeven .confirmation {
+        width: 100%;
+        height: 40%;
+    }
+
+    .sectionSeven .confirmation img {
+        width: 5%;
+        margin-bottom: 1%;
+    }
+
+    .sectionSeven .confirmation .text {
+        font-size: 2rem;
+    }
+
+    .sectionSeven .confirmation a {
+        width: 35%;
+        padding: 1%;
+        height: 50px;
+        font-size: 2rem;
+    }
+
+
+    .sectionEight .sectionEightText h2 {
+        font-size: 2rem;
+        width: 95%;
+    }
+
+    .sectionEight .sectionEightImg {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8F9E72;
+        padding-top: 3%;
+    }
+
+    .sectionEight .sectionEightImg img {
+        width: 50%;
+        height: 90%;
+        border-radius: 14px;
+        object-fit: fill;
+    }
+
+
+
+}
+
+@media (min-width: 1600px) {
+
+
+    .sectionThree {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-top: 0%;
+        background-color: #FAF9F4;
+    }
+
+    .when-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+        margin-bottom: 2%;
+
+    }
+
+    .when-info img,
+    .where-info img {
+        width: 5%;
+        margin-bottom: 1%;
+    }
+
+    .when-info .text {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: .5%;
+    }
+
+    .when-info .date {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0%;
+    }
+
+    .where-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .where-info .text {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+
+    .where-info .where1 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: .5%;
+    }
+
+    .where-info .adress1 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: .5%;
+
+    }
+
+    .where-info .where2 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: .5%;
+
+    }
+
+    .where-info .adress2 {
+        width: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: .5%;
+
+    }
+
+    .mapBtn {
+        text-decoration: none;
+        margin-bottom: 0%;
+        text-transform: uppercase;
+        background-color: #8F9E72;
+        color: #FAF9F4;
+        width: 15%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+
+    .sectionSix .dressCode button {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
 }

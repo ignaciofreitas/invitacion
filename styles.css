@@ -871,8 +871,8 @@
     }
 
     .sectionOnePicture img {
-        width: 40%;
-        height: 95%;
+        width: 30%;
+        height: 90%;
         border-radius: 14px;
     }
 
@@ -881,7 +881,10 @@
     }
 
     .sectionOneCounter h2 {
-        font-size: 3rem;
+        font-size: 3.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .sectionOneCounter #countdown {
@@ -935,7 +938,7 @@
     }
 
     .sectionTwo .sectionTwoImg img {
-        width: 50%;
+        width: 40%;
         height: 100%;
         border-radius: 14px;
         object-fit: fill;
@@ -1070,8 +1073,8 @@
     }
 
     .sectionFive .sectionFiveImg img {
-        width: 40%;
-        height: 95%;
+        width: 25%;
+        height: 80%;
         object-fit: fill;
         border-radius: 14px;
     }
@@ -1281,8 +1284,8 @@
     }
 
     .sectionEight .sectionEightImg img {
-        width: 45%;
-        height: 90%;
+        width: 30%;
+        height: 100%;
         border-radius: 14px;
         object-fit: fill;
     }

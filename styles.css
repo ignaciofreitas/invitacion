@@ -551,7 +551,8 @@
     padding: 20px;
     border: 1px solid #888;
     width: 100%;
-    background-color: white;
+    background-color: #fcfcfc;
+
 }
 
 .modal-content img {
@@ -560,7 +561,7 @@
 }
 
 .modal-content p {
-    background-color: white;
+    background-color: #fcfcfc;
 }
 
 .close {
@@ -1194,7 +1195,7 @@
         height: 90%;
         padding: 0px;
         width: 100%;
-        background-color: white;
+        background-color: #fcfcfc;
         border: solid white 1px;
 
     }
@@ -1207,7 +1208,7 @@
     }
 
     .modal-content p {
-        background-color: white;
+        background-color: #fcfcfc;
         text-align: center;
         height: 10%;
         font-size: 1.8rem;
@@ -1824,7 +1825,7 @@
         padding: 0px;
         border: 1px solid #888;
         width: 100%;
-        background-color: white;
+        background-color: #fcfcfc;
     }
 
     .modal-content img {
@@ -1833,7 +1834,7 @@
     }
 
     .modal-content p {
-        background-color: white;
+        background-color: #fcfcfc;
         text-align: center;
         height: 10%;
         font-size: 2rem;
